@@ -195,3 +195,11 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.content {
+    display: flex;
+}
+
+.content0 {
+    display: flex;
+}
