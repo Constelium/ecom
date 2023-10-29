@@ -33,6 +33,11 @@ header {
 
 }
 
+.logo {
+    position: absolute;
+    content: "";
+}
+
 .name1 {
     position: absolute;
     content: '';

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="index.css" rel="stylesheet" type="text/css" />
-    <title>Constelium | the art of display 3.0</title>
+    <link href="contact.css" rel="stylesheet" type="text/css" />
+    <title>Contact us</title>
 </head>
 <body>
 <header>
@@ -22,14 +22,20 @@
         </button>   
 </header>
 <main>
-    <div class="title">
-      <div>
-          <p>Transform your spaces, elevate your data | Constelium the art of display 3.0</p>
-      </div>
-    </nav>
-    <div class="content">
-        <H2>COMING SOON...</H2>
-    </div>
+    <div class="contact">
+        <form action="traitement_contact.php" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required><br>
+        
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required><br>
+        
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+        
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>    
 </main>
 <footer>
     <div class="FooterLinks ">
@@ -55,4 +61,4 @@
     </div>
 </footer>
 </body>
-</html>
+</html>    
