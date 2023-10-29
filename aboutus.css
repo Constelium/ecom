@@ -30,6 +30,7 @@ header {
     box-shadow: 2px 2px 7px #fa0061;
     z-index: 1;
     transition: 0.15s;
+
 }
 
 .name1 {
@@ -45,10 +46,25 @@ header {
     box-shadow: 0px 0px 10px #fa0061;
   }
   
-  .name1 h2 {
+.name1 h2 {
     margin: 0;
     font-size: 16px;
   }
+
+.aboutus p {
+    display: flex;
+    margin: 30px auto;
+    color: #ffffff; 
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}    
+
+.aboutus h5 {
+    display: flex;
+    margin: 30px auto;
+    color: #02feff;
+}
 
 header h1 {
     margin: 0;
@@ -161,6 +177,8 @@ footer {
     padding: 0;
 }
 
+
+
 .emailing {
     display: flex;
     flex-direction: row;
@@ -191,5 +209,5 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;   
+    text-decoration: underline;
 }
