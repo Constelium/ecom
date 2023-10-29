@@ -105,7 +105,8 @@ main {
     display: flex;
     height: 1px;
     max-width: 600px;
-    margin: 100px auto;
+    margin: auto;
+    margin-top: 450px;
     padding: 1px;
     background-color: #1a202c;
     justify-content: center;
@@ -116,7 +117,7 @@ main {
 /* Styles pour le pied de page (footer) */
 footer {
     content: "";
-    position: absolute;
+    position: fixed;
     height: 100px;
     width: 100%;
     bottom: 0;

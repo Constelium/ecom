@@ -18,6 +18,7 @@ body {
 /* Styles pour l'en-tête (header) */
 header {
     position: relative;
+    top: 0%;
     background-color: #02001c;
     color: #ffffff;
     padding: 20px;
@@ -99,13 +100,19 @@ nav ul li a {
     color: #ffffff;
 }
 
+.faq h3 {
+    text-align: center;
+    color: #ffffff;
+}
+
 /* Styles pour le contenu principal (main) */
 main {
     flex-direction: column;
     display: flex;
     height: 1px;
     max-width: 600px;
-    margin: 100px auto;
+    margin: auto;
+    margin-top: 550px;
     padding: 1px;
     background-color: #1a202c;
     justify-content: center;
@@ -116,7 +123,7 @@ main {
 /* Styles pour le pied de page (footer) */
 footer {
     content: "";
-    position: absolute;
+    position: fixed;
     height: 100px;
     width: 100%;
     bottom: 0;

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +9,7 @@ html {
 }
 body {
     position: relative;
-    font-family: 'Press Start 2P', sans-serif;
+    font-family: 'Press+Start+2P', sans-serif;
     margin: 0;
     padding: 0;
     background: #1a202c;
