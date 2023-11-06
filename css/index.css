@@ -6,9 +6,10 @@
 }
 html {
   height: 100%;
+  width: 100%;
 }
 body {
-  position: relative;
+  
   font-family: "Press+Start+2P", sans-serif;
   margin: 0;
   padding: 0;
@@ -53,6 +54,7 @@ header {
 .name1 {
   position: absolute;
   content: "";
+  left: 50%;
   bottom: -18px;
   padding: 5px 10px;
   width: auto;
@@ -103,10 +105,8 @@ nav ul li a {
 main {
   flex-direction: column;
   display: flex;
-  height: 1px;
-  max-width: 600px;
-  margin: 100px auto;
-  padding: 1px;
+  width: 100%;
+  /* margin: 100px auto; */
   justify-content: center;
   align-items: center;
 }
@@ -119,21 +119,12 @@ footer {
   width: 100%;
   bottom: 0;
   background-color: #02001c;
-  padding: 20px;
+  padding: 5px;
   border-top: 4px solid #fa0061;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.content {
-  display: flex;
-  margin: 30px auto;
-  color: #ffffff;
-  justify-content: center;
-  align-items: center;
-  margin-left: 25px;
 }
 
 .footerdiv {
