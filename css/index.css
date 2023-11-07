@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -9,19 +7,19 @@ html {
   width: 100%;
 }
 body {
-  
-  font-family: "Press+Start+2P", sans-serif;
   margin: 0;
   padding: 0;
   background: #1a202c;
   width: 100%;
   height: 100%;
+  font-family: monospace;
 }
 
 /* Styles pour l'en-tête (header) */
 header {
   position: relative;
   display: flex;
+  margin-bottom: 60px;
   background-color: #02001c;
   color: #ffffff;
   padding: 20px;
@@ -32,6 +30,47 @@ header {
   box-shadow: 2px 4px 7px #fa0061;
   z-index: 1;
   transition: 0.15s;
+}
+
+.neon-wrapper {
+  text-align: center;
+  color: #ffffff;
+  font-family: monospace;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width:100%;
+  }
+}
+
+.neon-text {
+  /* ... vos autres styles ... */
+  border-right: 3px solid #fa0061;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s steps(40, end) forwards, blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #02feff;
+  }
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+  margin-bottom: 20px;
 }
 
 .nav {
@@ -143,6 +182,10 @@ footer {
 .title {
   margin: 30px auto;
   color: #ffffff;
+}
+
+.title p {
+  margin-bottom: 20px;
 }
 
 .FooterLinks {
