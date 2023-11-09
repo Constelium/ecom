@@ -44,7 +44,7 @@ header {
     width: 0;
   }
   to {
-    width:100%;
+    width: 100%;
   }
 }
 
@@ -53,7 +53,8 @@ header {
   border-right: 3px solid #fa0061;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 3s steps(40, end) forwards, blink-caret 0.75s step-end infinite;
+  animation: typing 3s steps(40, end) forwards,
+    blink-caret 0.75s step-end infinite;
 }
 
 @keyframes blink-caret {
