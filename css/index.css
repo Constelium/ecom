@@ -91,13 +91,13 @@ h1 {
 .logo {
   position: absolute;
   content: "";
-  left: 50%;
+  left: 47%;
 }
 
 .name1 {
   position: absolute;
   content: "";
-  left: 50%;
+  left: 45%;
   bottom: -18px;
   padding: 5px 10px;
   width: auto;
@@ -144,6 +144,26 @@ nav ul li a {
   color: #ffffff;
 }
 
+.our-canvases-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #02feff; /* ou toute autre couleur que vous préférez */
+  text-align: center;
+  border: 1px solid #000000; /* ou toute autre couleur de bordure que vous préférez */
+  border-radius: 50px; /* Pour les coins arrondis */
+  transition: background-color 0.3s; /* Pour un effet de survol */
+}
+
+.our-canvases-btn:hover {
+  background-color: #fa0061; /* Couleur de fond au survol */
+}
+
+.our-canvases-btn a {
+  color: #000000; /* Texte noir */
+  /* ... autres propriétés ... */
+}
+
 /* Styles pour le contenu principal (main) */
 main {
   flex-direction: column;
@@ -153,6 +173,27 @@ main {
   /* margin: 100px auto; */
   justify-content: center;
   align-items: center;
+}
+
+/*Boutons pages d'acceuil Classic canva / Custom canva*/
+.canva-buttons {
+  text-align: center; /* Centrer les boutons */
+  margin-top: 20px;
+}
+
+.canva-container {
+  display: none; /* Masquer par défaut les conteneurs des tableaux */
+}
+
+.canva-container.active {
+  display: block; /* Afficher le conteneur lorsqu'il est actif */
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  /* Ajoutez ici d'autres styles pour vos boutons */
 }
 
 /* Styles pour le pied de page (footer) */
@@ -255,5 +296,5 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
