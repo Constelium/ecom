@@ -121,10 +121,15 @@ main {
 
 .description h4 {
   margin-bottom: 20px;
+  max-width: 50%;
+  text-align: center;
 }
 
 .description p {
   margin-bottom: 30px;
+  margin-bottom: 20px;
+  max-width: 50%;
+  text-align: center;
 }
 
 h1 {
@@ -143,6 +148,7 @@ h1 {
 
 .size {
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .buy-button {
@@ -169,6 +175,7 @@ h1 {
   .product-details {
     margin-left: 0;
     margin-top: 20px;
+    margin-bottom: 60px;
   }
 }
 
