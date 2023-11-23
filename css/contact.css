@@ -18,6 +18,7 @@ body {
 /* Styles pour l'en-tête (header) */
 header {
   position: relative;
+  font-size: 15px;
   background-color: #02001c;
   color: #ffffff;
   padding: 20px;
@@ -48,6 +49,11 @@ header {
   border: none;
   border-radius: 10px;
   box-shadow: 0px 0px 10px #fa0061;
+}
+
+.contact {
+  margin-top: 100px;
+  color: #ffffff;
 }
 
 .name1 h2 {
@@ -86,6 +92,7 @@ nav ul li a {
 /* Styles pour le contenu principal (main) */
 main {
   flex-direction: column;
+  font-size: 18px;
   display: flex;
   height: 1px;
   max-width: 600px;
@@ -100,6 +107,7 @@ main {
 footer {
   content: "";
   position: absolute;
+  font-size: 15px;
   height: 100px;
   width: 100%;
   bottom: 0;
