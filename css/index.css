@@ -20,6 +20,7 @@ body {
 header {
   position: relative;
   display: flex;
+  font-size: 15px;
   margin-bottom: 60px;
   background-color: #02001c;
   color: #ffffff;
@@ -75,6 +76,10 @@ h6 {
 
 h1 {
   margin-bottom: 100px;
+}
+
+p {
+  font-size: 17px;
 }
 
 .nav {
@@ -146,6 +151,7 @@ nav ul li a {
 
 .our-canvases-btn {
   display: inline-block;
+  font-size: 18px;
   padding: 10px 20px;
   margin: 5px;
   background-color: #02feff; /* ou toute autre couleur que vous préférez */
@@ -200,6 +206,7 @@ button {
 footer {
   content: "";
   position: fixed;
+  font-size: 15px;
   height: 100px;
   width: 100%;
   bottom: 0;
