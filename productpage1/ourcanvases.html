@@ -34,8 +34,18 @@
           <h1>Digital Canva</h1>
           <p class="price">1000 €</p>
           <p class="size">Taille : 16"/20"/24"/28"/32"/40"/50"</p>
-          <button class="buy-button">PRE-ORDER</button>
         </div>
+        <!-- Pop-up Structure -->
+        <div id="accountPopup" class="popup-container" style="display: none">
+          <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <h2>Constelium</h2>
+            <button id="signupBtn">Sign up</button>
+            <button id="loginBtn">log in</button>
+          </div>
+        </div>
+        <!-- Reste de votre HTML -->
+        <button class="buy-button" onclick="openPopup()">PRE-ORDER</button>
       </section>
       <div class="description">
         <div>
@@ -127,5 +137,6 @@
       </div>
       <div class="footerdiv"></div>
     </footer>
+    <script src="../popup.js/account.js"></script>
   </body>
 </html>
