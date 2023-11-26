@@ -69,6 +69,8 @@ header {
 .popup-content {
   background: #ffffff;
   color: #000000;
+  margin-bottom: 60px;
+  flex-direction: column;
   width: 30%;
   height: 40%;
   padding: 20px;
