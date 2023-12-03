@@ -2,6 +2,18 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --button-color: #02feff; /* Couleur principale */
+  --style-color: #fa0061; /* Couleur secondaire */
+  --background-color: #1a202c; /* Couleur de fond */
+  --text-color: #ffffff; /* Couleur du texte */
+  --hoover-color: #018c8c;
+  --popup-background: #ffffff; /* Fond de la pop-up */
+  --popup-text-color: #000000; /* Texte de la pop-up */
+  --text-button: #000000;
+}
+
 html {
   height: 100%;
   width: 100%;
@@ -10,7 +22,7 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
-  background: #1a202c;
+  background: var(--background-color);
   width: 100%;
   height: 100%;
   font-family: monospace;
@@ -22,8 +34,8 @@ header {
   display: flex;
   font-size: 15px;
   margin-bottom: 60px;
-  background-color: #02001c;
-  color: #ffffff;
+  background-color: var(--background-color);
+  color: var(--text-color);
   padding: 20px;
   background-repeat: no-repeat;
   width: 100%;
@@ -36,7 +48,7 @@ header {
 
 .neon-wrapper {
   text-align: center;
-  color: #ffffff;
+  color: var(--text-color);
   font-family: monospace;
 }
 
@@ -106,8 +118,8 @@ p {
   bottom: -18px;
   padding: 5px 10px;
   width: auto;
-  color: white;
-  background-color: #02001c;
+  color: var(--text-color);
+  background-color: var(--background-color);
   border: none;
   border-radius: 10px;
   box-shadow: 0px 0px 15px #fa0061;
@@ -124,12 +136,12 @@ header h1 {
 }
 
 footer p {
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 nav p {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 nav ul {
@@ -146,7 +158,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .our-canvases-btn {
@@ -154,7 +166,7 @@ nav ul li a {
   font-size: 18px;
   padding: 10px 20px;
   margin: 5px;
-  background-color: #02feff; /* ou toute autre couleur que vous préférez */
+  background-color: var(--button-color);
   text-align: center;
   border: 1px solid #000000; /* ou toute autre couleur de bordure que vous préférez */
   border-radius: 50px; /* Pour les coins arrondis */
@@ -162,11 +174,11 @@ nav ul li a {
 }
 
 .our-canvases-btn:hover {
-  background-color: #00c2c2; /* Couleur de fond au survol */
+  background-color: var(--hoover-color); /* Couleur de fond au survol */
 }
 
 .our-canvases-btn a {
-  color: #000000; /* Texte noir */
+  color: var(--text-button); /* Texte noir */
   /* ... autres propriétés ... */
 }
 
@@ -210,7 +222,7 @@ footer {
   height: 100px;
   width: 100%;
   bottom: 0;
-  background-color: #02001c;
+  background-color: var(--background-color);
   padding: 5px;
   border-top: 4px solid #fa0061;
   display: flex;
@@ -229,12 +241,12 @@ footer {
 }
 
 .footerdiv p {
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .title {
   margin: 30px auto;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .title p {
@@ -250,11 +262,11 @@ footer {
   flex-direction: column;
   width: 33%;
   columns: 10px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .FooterLinks p {
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .footerCase {
@@ -268,7 +280,7 @@ footer {
 
 .footer-section h3 {
   margin: 0 0 10px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .footer-section ul {
@@ -283,12 +295,12 @@ footer {
 }
 
 .emailing h4 {
-  background-color: #02feff;
+  background-color: var(--button-color);
 }
 
 .NewsletterBlock h4 {
-  color: #ffffff;
-  background-color: #02feff;
+  color: var(--text-color);
+  background-color: var(--button-color);
 }
 
 /* Styles pour le copyright */
@@ -296,12 +308,12 @@ footer {
   text-align: center;
   margin-top: 20px;
   margin-right: 40px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 /* Styles pour les liens */
 a {
-  color: #ffffff;
+  color: var(--text-color);
   text-decoration: none;
 }
 

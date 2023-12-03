@@ -69,7 +69,7 @@ header {
 .popup-content {
   background: #ffffff;
   color: #000000;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   flex-direction: column;
   width: 50%; /* Largeur de la pop-up */
   min-height: 50%; /* Hauteur minimale de la pop-up */
