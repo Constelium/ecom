@@ -2,6 +2,19 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --button-color: #02feff; /* Couleur principale */
+  --style-color: #fa0061; /* Couleur secondaire */
+  --background-color: #1a202c; /* Couleur de fond */
+  --text-color: #ffffff; /* Couleur du texte */
+  --title-color: #02feff;
+  --hoover-color: #018c8c;
+  --popup-background: #ffffff; /* Fond de la pop-up */
+  --popup-text-color: #000000; /* Texte de la pop-up */
+  --text-button: #000000;
+}
+
 html {
   height: 100%;
 }
@@ -9,7 +22,7 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
-  background: #1a202c;
+  background: var(--background-color);
   width: 100%;
   height: 100%;
   font-family: monospace;
@@ -19,8 +32,8 @@ body {
 header {
   position: relative;
   font-size: 15px;
-  background-color: #02001c;
-  color: #ffffff;
+  background-color: var(--background-color);
+  color: var(--text-color);
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -46,8 +59,8 @@ header {
   bottom: -18px;
   padding: 5px 10px;
   width: auto;
-  color: white;
-  background-color: #02001c;
+  color: var(--text-color);
+  background-color: var(--background-color);
   border: none;
   border-radius: 10px;
   box-shadow: 0px 0px 10px #fa0061;
@@ -60,15 +73,15 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+  background-color: rgba(151, 151, 151, 0.5); /* Fond semi-transparent */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .popup-content {
-  background: #ffffff;
-  color: #000000;
+  background: var(--popup-background);
+  color: var(--popup-text-color);
   margin-bottom: 100px;
   flex-direction: column;
   width: 50%; /* Largeur de la pop-up */
@@ -97,7 +110,7 @@ header {
 }
 
 h4 {
-  color: #02feff;
+  color: var(--title-color);
 }
 
 .name1 h2 {
@@ -110,12 +123,12 @@ header h1 {
 }
 
 footer p {
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 nav p {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 nav ul {
@@ -132,7 +145,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 /* Styles pour le contenu principal (main) */
@@ -144,8 +157,8 @@ main {
   max-width: 600px;
   margin: 100px auto;
   padding-bottom: 100px;
-  color: #ffffff;
-  background-color: #1a202c;
+  color: var(--text-color);
+  background-color: var(--background-color);
   justify-content: center;
   align-items: center;
 }
@@ -179,7 +192,7 @@ main {
   margin-bottom: 20px;
   font-size: 18px;
   max-width: 50%;
-  color: #ffffff;
+  color: var(--text-color);
   text-align: center;
 }
 
@@ -190,7 +203,7 @@ h1 {
 .price {
   margin-bottom: 20px;
   font-size: 1.5em;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .description {
@@ -203,8 +216,8 @@ h1 {
 }
 
 .buy-button {
-  background-color: #02feff;
-  color: rgb(0, 0, 0);
+  background-color: var(--button-color);
+  color: var(--text-button);
   border: none;
   padding: 10px 20px;
   text-transform: uppercase;
@@ -213,7 +226,7 @@ h1 {
 }
 
 .buy-button:hover {
-  background-color: #00c2c2;
+  background-color: var(--hoover-color);
 }
 
 /* Responsive design */
@@ -238,7 +251,7 @@ footer {
   height: 100px;
   width: 100%;
   bottom: 0;
-  background-color: #02001c;
+  background-color: var(--background-color);
   padding: 5px;
   border-top: 4px solid #fa0061;
   display: flex;
@@ -250,7 +263,7 @@ footer {
 .content {
   display: flex;
   margin: 30px auto;
-  color: #ffffff;
+  color: var(--text-color);
   justify-content: center;
   align-items: center;
   margin-left: 25px;
@@ -267,7 +280,7 @@ footer {
 
 .title {
   margin: 30px auto;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .FooterLinks {
@@ -276,7 +289,7 @@ footer {
   flex-direction: column;
   width: 33%;
   columns: 10px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .footerCase {
@@ -290,7 +303,7 @@ footer {
 
 .footer-section h3 {
   margin: 0 0 10px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .footer-section ul {
@@ -305,7 +318,7 @@ footer {
 }
 
 .emailing h4 {
-  background-color: #02feff;
+  background-color: var(--button-color);
 }
 
 .NewsletterBlock h4 {
@@ -318,12 +331,12 @@ footer {
   text-align: center;
   margin-top: 20px;
   margin-right: 40px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 /* Styles pour les liens */
 a {
-  color: #ffffff;
+  color: var(--text-color);
   text-decoration: none;
 }
 
