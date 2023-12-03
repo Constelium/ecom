@@ -69,19 +69,31 @@ header {
 .popup-content {
   background: #ffffff;
   color: #000000;
-  margin-bottom: 60px;
+  margin-bottom: 150px;
   flex-direction: column;
-  width: 30%;
-  height: 40%;
+  width: 50%; /* Largeur de la pop-up */
+  min-height: 50%; /* Hauteur minimale de la pop-up */
   padding: 20px;
   box-shadow: 5px 5px 5px #fa0061;
   text-align: center;
+  display: flex; /* Pour activer flexbox pour les éléments enfants */
+  align-items: center; /* Centrage horizontal des éléments enfants */
+  justify-content: center; /* Centrage vertical des éléments enfants */
 }
 
 .close-btn {
   float: right;
+  top: 10px; /* Espacement du haut de la pop-up */
+  right: 10px; /* Espacement du côté droit de la pop-up */
   font-size: 28px;
   cursor: pointer;
+}
+
+.popup-buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Pour centrer les boutons dans la pop-up */
 }
 
 h4 {
