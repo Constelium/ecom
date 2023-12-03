@@ -9,9 +9,8 @@
   --background-color: #1a202c; /* Couleur de fond */
   --text-color: #ffffff; /* Couleur du texte */
   --hoover-color: #018c8c;
-  --popup-background: #ffffff; /* Fond de la pop-up */
-  --popup-text-color: #000000; /* Texte de la pop-up */
   --text-button: #000000;
+  --title-color: #02feff;
 }
 
 html {
@@ -57,7 +56,7 @@ header {
   padding: 5px 10px;
   width: auto;
   color: var(--text-color);
-  background-color: #02001c;
+  background-color: var(--background-color);
   border: none;
   border-radius: 10px;
   box-shadow: 0px 0px 10px #fa0061;
@@ -71,7 +70,7 @@ header {
 .aboutus p {
   display: flex;
   margin: 30px auto;
-  color: #ffffff;
+  color: var(--text-color);
   justify-content: center;
   align-items: center;
   margin-left: 25px;
@@ -80,7 +79,7 @@ header {
 .aboutus h5 {
   display: flex;
   margin: 30px auto;
-  color: #02feff;
+  color: var(--title-color);
 }
 
 header h1 {
@@ -88,12 +87,12 @@ header h1 {
 }
 
 footer p {
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 nav p {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 nav ul {
@@ -108,7 +107,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 /* Styles pour le contenu principal (main) */
@@ -121,7 +120,7 @@ main {
   margin: auto;
   margin-top: 450px;
   padding: 1px;
-  background-color: #1a202c;
+  background-color: var(--background-color);
   justify-content: center;
   align-items: center;
 }
@@ -134,7 +133,7 @@ footer {
   height: 100px;
   width: 100%;
   bottom: 0;
-  background-color: #02001c;
+  background-color: var(--background-color);
   padding: 20px;
   border-top: 2px solid #fa0061;
   display: flex;
@@ -146,7 +145,7 @@ footer {
 .content {
   display: flex;
   margin: 30px auto;
-  color: #ffffff;
+  color: var(--text-color);
   justify-content: center;
   align-items: center;
   margin-left: 25px;
@@ -163,7 +162,7 @@ footer {
 
 .title {
   margin: 30px auto;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .FooterLinks {
@@ -172,7 +171,7 @@ footer {
   flex-direction: column;
   width: 33%;
   columns: 10px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .footerCase {
@@ -186,7 +185,7 @@ footer {
 
 .footer-section h3 {
   margin: 0 0 10px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .footer-section ul {
@@ -201,7 +200,7 @@ footer {
 }
 
 .emailing h4 {
-  background-color: #02feff;
+  background-color: var(--button-color);
 }
 
 .NewsletterBlock h4 {
@@ -214,12 +213,12 @@ footer {
   text-align: center;
   margin-top: 20px;
   margin-right: 40px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 /* Styles pour les liens */
 a {
-  color: #ffffff;
+  color: var(--text-color);
   text-decoration: none;
 }
 
