@@ -42,7 +42,7 @@ header {
   width: 100%;
   height: 100px;
   padding: 5px;
-  box-shadow: 2px 2px 7px #fa0061;
+  box-shadow: 2px 2px 7px #34e28b;
   z-index: 1;
   transition: 0.15s;
 }
@@ -52,7 +52,7 @@ header {
   content: "";
 }
 
-.name1 {
+/* .name1 {
   position: absolute;
   content: "";
   bottom: -18px;
@@ -63,7 +63,7 @@ header {
   border: none;
   border-radius: 10px;
   box-shadow: 0px 0px 10px #fa0061;
-}
+} */
 
 .name1 h2 {
   margin: 0;
@@ -143,7 +143,7 @@ footer {
   bottom: 0;
   background-color: var(--background-Head-Foot);
   padding: 20px;
-  border-top: 2px solid #fa0061;
+  border-top: 2px solid #34e28b;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -213,7 +213,7 @@ footer {
 
 .NewsletterBlock h4 {
   color: #000000;
-  background-color: #02feff;
+  background-color: #34e28b;
 }
 
 /* Styles pour le copyright */
