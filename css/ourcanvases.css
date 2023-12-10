@@ -6,13 +6,14 @@
 :root {
   --button-color: #34e28b; /* Couleur principale */
   --style-color: #fa0061; /* Couleur secondaire */
-  --background-color: #1a202c; /* Couleur de fond */
-  --text-color: #ffffff; /* Couleur du texte */
-  --title-color: #02feff;
-  --hoover-color: #018c8c;
-  --popup-background: #ffffff; /* Fond de la pop-up */
-  --popup-text-color: #000000; /* Texte de la pop-up */
-  --text-button: #000000;
+  --background-Head-Foot: #111111;
+  --background-color: #010101; /* Couleur de fond */
+  --text-color: #767679; /* Couleur du texte */
+  --title-color: #f0f0f0;
+  --hoover-color: #0ab35f;
+  --popup-background: #111111; /* Fond de la pop-up */
+  --popup-text-color: #f0f0f0; /* Texte de la pop-up */
+  --text-button: #010101;
 }
 
 html {
@@ -32,7 +33,7 @@ body {
 header {
   position: relative;
   font-size: 15px;
-  background-color: var(--background-color);
+  background-color: var(--background-Head-Foot);
   color: var(--text-color);
   padding: 20px;
   display: flex;
@@ -251,7 +252,7 @@ footer {
   height: 100px;
   width: 100%;
   bottom: 0;
-  background-color: var(--background-color);
+  background-color: var(--background-Head-Foot);
   padding: 5px;
   border-top: 4px solid #fa0061;
   display: flex;
