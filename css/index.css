@@ -4,14 +4,15 @@
 }
 
 :root {
-  --button-color: #02feff; /* Couleur principale */
+  --button-color: #34e28b; /* Couleur principale */
   --style-color: #fa0061; /* Couleur secondaire */
-  --background-color: #1a202c; /* Couleur de fond */
-  --text-color: #ffffff; /* Couleur du texte */
-  --hoover-color: #018c8c;
+  --background-Head-Foot: #111111; /* Couleur de fond */
+  --background-color: #010101;
+  --text-color: #57575a; /* Couleur du texte */
+  --hoover-color: #0ab35f;
   --popup-background: #ffffff; /* Fond de la pop-up */
   --popup-text-color: #000000; /* Texte de la pop-up */
-  --text-button: #000000;
+  --text-button: #010101;
 }
 
 html {
@@ -34,7 +35,7 @@ header {
   display: flex;
   font-size: 15px;
   margin-bottom: 60px;
-  background-color: var(--background-color);
+  background-color: var(--background-Head-Foot);
   color: var(--text-color);
   padding: 20px;
   background-repeat: no-repeat;
@@ -222,7 +223,7 @@ footer {
   height: 100px;
   width: 100%;
   bottom: 0;
-  background-color: var(--background-color);
+  background-color: var(--background-Head-Foot);
   padding: 5px;
   border-top: 4px solid #fa0061;
   display: flex;
