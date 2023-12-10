@@ -8,7 +8,7 @@
   --style-color: #fa0061; /* Couleur secondaire */
   --background-Head-Foot: #111111; /* Couleur de fond */
   --background-color: #010101;
-  --text-color: #57575a; /* Couleur du texte */
+  --text-color: #767679; /* Couleur du texte */
   --hoover-color: #0ab35f;
   --popup-background: #ffffff; /* Fond de la pop-up */
   --popup-text-color: #000000; /* Texte de la pop-up */
@@ -42,7 +42,7 @@ header {
   width: 100%;
   height: 100px;
   padding: 5px;
-  box-shadow: 2px 4px 7px #fa0061;
+  box-shadow: -5px -7px 20px #34e28b;
   z-index: 1;
   transition: 0.15s;
 }
@@ -64,7 +64,7 @@ header {
 
 .neon-text {
   /* ... vos autres styles ... */
-  border-right: 3px solid #fa0061;
+  border-right: 2px solid #34e28b;
   white-space: nowrap;
   overflow: hidden;
   animation: typing 3s steps(40, end) forwards,
@@ -112,7 +112,7 @@ p {
   left: 47%;
 }
 
-.name1 {
+/* .name1 {
   position: absolute;
   content: "";
   left: 45%;
@@ -123,9 +123,9 @@ p {
   background-color: var(--background-color);
   border: none;
   border-radius: 10px;
-  box-shadow: 0px 0px 15px #fa0061;
+  box-shadow: 0px 0px 7px #34e28b;
   align-items: center;
-}
+} */
 
 .name1 h2 {
   margin: 0;
@@ -225,7 +225,7 @@ footer {
   bottom: 0;
   background-color: var(--background-Head-Foot);
   padding: 5px;
-  border-top: 4px solid #fa0061;
+  box-shadow: 10px 20px 40px #34e28b;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
