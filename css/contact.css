@@ -4,15 +4,15 @@
 }
 
 :root {
-  --button-color: #02feff; /* Couleur principale */
+  --button-color: #34e28b; /* Couleur principale */
   --style-color: #fa0061; /* Couleur secondaire */
-  --background-color: #1a202c; /* Couleur de fond */
-  --text-color: #ffffff; /* Couleur du texte */
-  --title-color: #02feff;
-  --hoover-color: #018c8c;
+  --background-Head-Foot: #111111; /* Couleur de fond */
+  --background-color: #010101;
+  --text-color: #767679; /* Couleur du texte */
+  --hoover-color: #0ab35f;
   --popup-background: #ffffff; /* Fond de la pop-up */
   --popup-text-color: #000000; /* Texte de la pop-up */
-  --text-button: #000000;
+  --text-button: #010101;
 }
 
 html {
@@ -42,7 +42,7 @@ header {
   width: 100%;
   height: 100px;
   padding: 5px;
-  box-shadow: 2px 2px 7px #fa0061;
+  box-shadow: 2px 2px 7px #34e28b;
   z-index: 1;
   transition: 0.15s;
 }
@@ -52,7 +52,7 @@ header {
   content: "";
 }
 
-.name1 {
+/* .name1 {
   position: absolute;
   content: "";
   bottom: -18px;
@@ -63,7 +63,7 @@ header {
   border: none;
   border-radius: 10px;
   box-shadow: 0px 0px 10px #fa0061;
-}
+} */
 
 .contact {
   margin-top: 100px;
@@ -127,7 +127,7 @@ footer {
   bottom: 0;
   background-color: var(--background-color);
   padding: 20px;
-  border-top: 2px solid #fa0061;
+  border-top: 2px solid #34e28b;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -197,7 +197,7 @@ footer {
 
 .NewsletterBlock h4 {
   color: #000000;
-  background-color: #02feff;
+  background-color: #34e28b;
 }
 
 /* Styles pour le copyright */

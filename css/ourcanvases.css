@@ -42,7 +42,7 @@ header {
   width: 100%;
   height: 100px;
   padding: 5px;
-  box-shadow: 2px 2px 7px #fa0061;
+  box-shadow: 2px 2px 7px #34e28b;
   z-index: 1;
   transition: 0.15s;
 }
@@ -53,7 +53,7 @@ header {
   left: 47%;
 }
 
-.name1 {
+/* .name1 {
   position: absolute;
   content: "";
   left: 45%;
@@ -65,7 +65,7 @@ header {
   border: none;
   border-radius: 10px;
   box-shadow: 0px 0px 10px #fa0061;
-}
+} */
 
 /* Style pour la pop-up */
 .popup-container {
@@ -88,7 +88,7 @@ header {
   width: 50%; /* Largeur de la pop-up */
   min-height: 50%; /* Hauteur minimale de la pop-up */
   padding: 20px;
-  box-shadow: 5px 5px 5px #fa0061;
+  box-shadow: 5px 5px 5px #34e28b;
   text-align: center;
   display: flex; /* Pour activer flexbox pour les éléments enfants */
   align-items: center; /* Centrage horizontal des éléments enfants */
@@ -254,7 +254,7 @@ footer {
   bottom: 0;
   background-color: var(--background-Head-Foot);
   padding: 5px;
-  border-top: 4px solid #fa0061;
+  border-top: 4px solid #34e28b;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -324,7 +324,7 @@ footer {
 
 .NewsletterBlock h4 {
   color: #000000;
-  background-color: #02feff;
+  background-color: #34e28b;
 }
 
 /* Styles pour le copyright */
