@@ -9,6 +9,7 @@
   --background-Head-Foot: #111111; /* Couleur de fond */
   --background-color: #010101;
   --text-color: #767679; /* Couleur du texte */
+  --title-color: #f0f0f0;
   --hoover-color: #0ab35f;
   --popup-background: #ffffff; /* Fond de la pop-up */
   --popup-text-color: #000000; /* Texte de la pop-up */
@@ -85,6 +86,7 @@ h2,
 h5,
 h6 {
   margin-bottom: 20px;
+  color: var(--title-color);
 }
 
 h1 {
