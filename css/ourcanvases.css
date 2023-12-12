@@ -8,11 +8,11 @@
   --style-color: #fa0061; /* Couleur secondaire */
   --background-Head-Foot: #111111;
   --background-color: #010101; /* Couleur de fond */
-  --text-color: #767679; /* Couleur du texte */
-  --title-color: #f0f0f0;
+  --text-color: #99999c; /* Couleur du texte */
+  --title-color: #e4dcdc;
   --hoover-color: #0ab35f;
   --popup-background: #111111; /* Fond de la pop-up */
-  --popup-text-color: #f0f0f0; /* Texte de la pop-up */
+  --popup-text-color: #e4dcdc; /* Texte de la pop-up */
   --text-button: #010101;
 }
 

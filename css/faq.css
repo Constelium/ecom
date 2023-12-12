@@ -8,10 +8,10 @@
   --style-color: #fa0061; /* Couleur secondaire */
   --background-Head-Foot: #111111;
   --background-color: #010101; /* Couleur de fond */
-  --text-color: #767679; /* Couleur du texte */
+  --text-color: #99999c; /* Couleur du texte */
   --hoover-color: #0ab35f;
   --text-button: #010101;
-  --title-color: #f0f0f0;
+  --title-color: #e4dcdc;
 }
 
 html {

@@ -8,8 +8,8 @@
   --style-color: #fa0061; /* Couleur secondaire */
   --background-Head-Foot: #111111; /* Couleur de fond */
   --background-color: #010101;
-  --text-color: #767679; /* Couleur du texte */
-  --title-color: #f0f0f0;
+  --text-color: #99999c; /* Couleur du texte */
+  --title-color: #e4dcdc;
   --hoover-color: #0ab35f;
   --popup-background: #ffffff; /* Fond de la pop-up */
   --popup-text-color: #000000; /* Texte de la pop-up */
@@ -20,6 +20,7 @@ html {
   height: 100%;
   width: 100%;
 }
+
 body {
   position: relative;
   margin: 0;
