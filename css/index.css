@@ -66,6 +66,10 @@ header {
   /* Ajoutez d'autres styles selon vos besoins */
 }
 
+.menu-button:hover {
+  background-color: #0ab35f;
+}
+
 /* Style pour cacher le menu par défaut */
 .dropdown-menu {
   display: none;
