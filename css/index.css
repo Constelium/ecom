@@ -52,6 +52,17 @@ header {
 /* Style pour le bouton */
 .menu-button {
   cursor: pointer;
+  background-color: #34e28b; /* Couleur verte pour l'exemple */
+  color: #010101; /* Couleur du texte */
+  padding: 10px 15px; /* Espacement intérieur pour que le bouton soit plus grand */
+  border: none; /* Supprime la bordure par défaut des boutons */
+  text-align: center; /* Centre le texte dans le bouton */
+  text-decoration: none; /* Supprime la décoration du texte */
+  display: inline-block; /* Permet de spécifier des dimensions au bouton */
+  font-size: 16px; /* Taille du texte */
+  margin: 4px 2px; /* Marge autour du bouton */
+  transition-duration: 0.4s; /* Effet de transition pour le survol */
+  border-radius: 5px; /* Bords arrondis du bouton */
   /* Ajoutez d'autres styles selon vos besoins */
 }
 
