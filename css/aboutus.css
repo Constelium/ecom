@@ -47,6 +47,50 @@ header {
   transition: 0.15s;
 }
 
+/* Style pour le bouton */
+.menu-button {
+  cursor: pointer;
+  background-color: #34e28b; /* Couleur verte pour l'exemple */
+  color: #010101; /* Couleur du texte */
+  padding: 10px 15px; /* Espacement intérieur pour que le bouton soit plus grand */
+  border: none; /* Supprime la bordure par défaut des boutons */
+  text-align: center; /* Centre le texte dans le bouton */
+  text-decoration: none; /* Supprime la décoration du texte */
+  display: inline-block; /* Permet de spécifier des dimensions au bouton */
+  font-size: 16px; /* Taille du texte */
+  margin: 4px 2px; /* Marge autour du bouton */
+  transition-duration: 0.4s; /* Effet de transition pour le survol */
+  border-radius: 5px; /* Bords arrondis du bouton */
+  /* Ajoutez d'autres styles selon vos besoins */
+}
+
+.menu-button:hover {
+  background-color: #0ab35f;
+}
+
+/* Style pour cacher le menu par défaut */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #e4dcdc;
+  min-width: 160px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Style pour les liens dans le menu */
+.dropdown-menu a {
+  color: #010101;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Style pour le menu ouvert */
+.show {
+  display: block;
+}
+
 .logo {
   position: absolute;
   content: "";
