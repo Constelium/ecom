@@ -10,12 +10,19 @@
     <header>
       <img class="logo" src="./public/logo.png" width="80" height="80" />
       <nav>
-        <ul>
-          <li><a href="./index.html">Home </a></li>
-          <li><a href="./aboutus.html">About us</a></li>
-          <li><a href="./faq.html">FAQ</a></li>
-          <li><a href="./contact.html">Contact us</a></li>
-        </ul>
+        <nav>
+          <!-- Bouton pour ouvrir le menu déroulant -->
+        <button id="menuButton" class="menu-button">
+          <i class="icon">☰</i> 
+        </button>
+        <!-- Menu déroulant -->
+        <div id="dropdownMenu" class="dropdown-menu">
+          <a href="./index.html">Home</a>
+          <a href="./productpage1/ourcanvases.html">Canvas</a>
+          <a href="./aboutus.html">About us</a>
+          <a href="./faq.html">FAQ</a>
+          <a href="./contact.html">Contact us</a>
+        </div>
       </nav>
       <!-- <button class="name1">
         <h2>CONSTELIUM</h2>

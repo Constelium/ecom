@@ -47,6 +47,33 @@ header {
   transition: 0.15s;
 }
 
+.menu-button:hover {
+  background-color: #0ab35f;
+}
+
+/* Style pour cacher le menu par défaut */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #e4dcdc;
+  min-width: 160px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Style pour les liens dans le menu */
+.dropdown-menu a {
+  color: #010101;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Style pour le menu ouvert */
+.show {
+  display: block;
+}
+
 .logo {
   position: absolute;
   content: "";
