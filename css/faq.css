@@ -31,6 +31,7 @@ body {
 /* Styles pour l'en-tête (header) */
 header {
   position: relative;
+  display: flex;
   font-size: 15px;
   top: 0%;
   background-color: var(--background-Head-Foot);
