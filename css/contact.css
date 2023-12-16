@@ -96,19 +96,6 @@ header {
   content: "";
 }
 
-/* .name1 {
-  position: absolute;
-  content: "";
-  bottom: -18px;
-  padding: 5px 10px;
-  width: auto;
-  color: var(--text-color);
-  background-color: var(--background-color);
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px #fa0061;
-} */
-
 .contact {
   margin-top: 100px;
   color: var(--text-color);
