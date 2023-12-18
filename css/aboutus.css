@@ -10,6 +10,7 @@
   --background-color: #010101;
   --text-color: #99999c; /* Couleur du texte */
   --hoover-color: #0ab35f;
+  --title-color: #e4dcdc;
   --popup-background: #ffffff; /* Fond de la pop-up */
   --popup-text-color: #000000; /* Texte de la pop-up */
   --text-button: #010101;
@@ -42,7 +43,7 @@ header {
   width: 100%;
   height: 100px;
   padding: 5px;
-  box-shadow: -5px -7px 20px #34e28b;
+  box-shadow: -5px -7px 20px var(--button-color);
   z-index: 1;
   transition: 0.15s;
 }
@@ -50,8 +51,8 @@ header {
 /* Style pour le bouton */
 .menu-button {
   cursor: pointer;
-  background-color: #34e28b; /* Couleur verte pour l'exemple */
-  color: #010101; /* Couleur du texte */
+  background-color: var(--button-color); /* Couleur verte pour l'exemple */
+  color: var(--background-color); /* Couleur du texte */
   padding: 10px 15px; /* Espacement intérieur pour que le bouton soit plus grand */
   border: none; /* Supprime la bordure par défaut des boutons */
   text-align: center; /* Centre le texte dans le bouton */
@@ -65,14 +66,14 @@ header {
 }
 
 .menu-button:hover {
-  background-color: #0ab35f;
+  background-color: var(--hoover-color);
 }
 
 /* Style pour cacher le menu par défaut */
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: #e4dcdc;
+  background-color: var();
   min-width: 160px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -169,7 +170,7 @@ footer {
   bottom: 0;
   background-color: var(--background-color);
   padding: 20px;
-  box-shadow: 10px 20px 40px #34e28b;
+  box-shadow: 10px 20px 40px var(--title-color);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -238,8 +239,8 @@ footer {
 }
 
 .NewsletterBlock h4 {
-  color: #000000;
-  background-color: #34e28b;
+  color: var(--text-button);
+  background-color: var(--button-color);
 }
 
 /* Styles pour le copyright */
